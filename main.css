@@ -5,9 +5,9 @@
 
 }
 .container {
-  height: 660px; /* It can be anything you need */
+  height: 100vh; /* It can be anything you need */
   position: relative;
-  width: 100%;
+  width: 100vw;
   position: relative;
 
 }
@@ -33,12 +33,117 @@
   opacity: 1;
 }
 
+.category-top-left{
+  display: block;
+  width: 20%;
+  margin: 3%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+
+}
+
+
+.ul, li{
+    list-style-type: none;
+    list-style: none;
+}
 .welcome{
-	display: inline-block;
-	width: 20%;
-	margin: 3%;
+	display: block;
+	width: 25%;
+  margin: 3%;
 	color: white;
-	font-family: arial;
+	font-family: 'Merriweather', serif;
+  margin-top: 20%;
+  font-size: 45px;
 
 
 }
+
+a.slideshow_nav:link{
+  text-decoration: none;
+  color: white;
+}
+
+.slideshow_nav{
+  color: white;
+}
+
+.title{
+  font-family: 'Merriweather', serif;
+  margin-top: 4%;
+  margin-right: 20%;
+  text-align: right;
+  font-size: 240%;
+  font-weight: bolder;
+  font-style: italic;
+  
+  color: #ff6978;
+}
+
+.category_title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+  color: #6d2f3e;
+  font-size: 30px;
+  margin-left: 25%;
+  margin-top: 2%;
+  
+}
+
+
+.left_nav_bar{
+  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+/*  margin-top: 14%;*/
+  margin-left: 10%;
+  font-size: 18px;
+/*  width: 30%;*/
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+a.left_nav_style:link{
+
+  text-decoration: none;
+  color: #0b0A12;
+
+}
+
+a.left_nav_style:visited{
+
+  text-decoration: none;
+  color: #ff6978;
+
+}
+
+.main_page_container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.category_container{
+  height: 600px;
+  display: inline-flex;
+  margin-left: 8%;
+  margin-right:10%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%
+
+
+
+}
+
+.category_button{
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  margin-left: 6%;
+  margin-bottom: 6%;
+}
+
+

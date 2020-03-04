@@ -16,5 +16,5 @@ function cycleBackgrounds(interval) {
 }
 
 $(function () {
-  cycleBackgrounds(2000);
+  cycleBackgrounds(3000);
 });
