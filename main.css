@@ -73,7 +73,7 @@ a.slideshow_nav:link{
 .title{
   font-family: 'Merriweather', serif;
   margin-top: 4%;
-  margin-right: 20%;
+  margin-right: 15%;
   text-align: right;
   font-size: 240%;
   font-weight: bolder;
@@ -126,7 +126,7 @@ a.left_nav_style:visited{
 }
 
 .category_container{
-  height: 600px;
+  height: auto;
   display: inline-flex;
   margin-left: 8%;
   margin-right:10%;
@@ -140,10 +140,32 @@ a.left_nav_style:visited{
 
 .category_button{
   background-color: grey;
-  width: 150px;
-  height: 150px;
-  margin-left: 6%;
-  margin-bottom: 6%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  align-items: center;
+  border: none;
+}
+
+.project_button{
+  width: 200px;
+  height: 200px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  align-items: center;
+  border: none;
+  color: black;
+  background-image: url('images/icon copy 2.png');
+
+
+}
+
+
+button.project_button:hover{
+  background-image: url('images/icon copy over.png');
+
+
 }
 
 
