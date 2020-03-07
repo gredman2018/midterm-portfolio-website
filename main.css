@@ -427,7 +427,7 @@ flex-direction: row;
 
 @media only screen and (max-width: 600px) {
   .feed_me_banner{
-    width: 300px;
+    width: 280px;
 
   }
   .project_title{
