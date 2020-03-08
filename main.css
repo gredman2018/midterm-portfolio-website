@@ -323,7 +323,8 @@ a.contact_link{
 
 }
 
-@media only screen and (max-width: 1072px) {
+
+@media only screen and (max-width: 1024px) {
   .feed_me_banner{
     width: 600px;
 
@@ -351,7 +352,7 @@ a.contact_link{
 
 .welcome{
  
-  margin-top: 40%;
+  margin-top: 32%;
   font-size: 35px;
 
 
@@ -388,7 +389,10 @@ flex-direction: row;
 }
 
 
-@media only screen and (max-width: 768px) {
+
+
+
+@media only screen and (max-width: 770px) {
   .feed_me_banner{
     width: 400px;
 
@@ -423,9 +427,29 @@ flex-direction: row;
   align-content: center;
 
 }
+
+.welcome{
+  margin-top: 200px;
+}
+
+.category_button{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10%;
+}
+
+.cat-image{
+  width: 200px;
+  height: 200px;
+}
+
 }
 
 @media only screen and (max-width: 600px) {
+
+  .title{
+    margin-top: 8%;
+  }
   .feed_me_banner{
     width: 260px;
 
@@ -446,12 +470,73 @@ flex-direction: row;
 
 .welcome{
  
-  margin-top: 44%;
-  font-size: 35px;
+  margin-top: 120%;
+  font-size: 30px;
+  width: 50%;
+}
 
+.project_button_2{
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  margin-bottom: 12%;
 
 
 }
 
+.project_button{
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  margin-bottom: 12%;
+
+
+}
+
+.project_button_3{
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  margin-bottom: 12%;
+
+
+}
+
+.feed_me_banner{
+  margin-bottom: 3%;
+  width: 200px;
+
+
+}
+
+.category_button{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10%;
+}
+
+.cat-image{
+  width: 200px;
+  height: 200px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .welcome{
+ 
+  margin-top: 100%;
+  font-size: 30px;
+  width: 50%;
+  margin-left: 8%;
+}
+
+.category-top-left{
+  margin-top: 10%;
+    margin-left: 8%;
+
+}
 }
 
