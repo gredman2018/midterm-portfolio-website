@@ -146,7 +146,7 @@ a.left_nav_style:visited{
   margin-right:10%;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 70%;
+  width: 75%;
   align-content: center;
 
 
@@ -159,7 +159,7 @@ a.left_nav_style:visited{
   background-color: grey;
   width: 260px;
   height: 260px;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-bottom: 3%;
 
   border: none;
