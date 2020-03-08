@@ -130,12 +130,13 @@ a.left_nav_style:visited{
   display: flex;
   flex-direction: row;
   margin-top: 2%;
-  width: 100vw;
+
+
 }
 
 .whole_page{
   height: 500px;
-  width: 70%;
+  width: 100vw;
 }
 
 .category_container{
@@ -145,7 +146,7 @@ a.left_nav_style:visited{
   margin-right:10%;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 70%;
   align-content: center;
 
 
@@ -158,8 +159,8 @@ a.left_nav_style:visited{
   background-color: grey;
   width: 260px;
   height: 260px;
-  margin-left: 5.5%;
-  margin-bottom: 5.5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 
   border: none;
 }
